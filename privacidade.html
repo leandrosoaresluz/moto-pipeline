@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacidade · moto-pipeline</title>
+  <style>
+    :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --accent: #c2410c; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #141414; --fg: #ececec; --muted: #a1a1a6; --accent: #fb923c; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+    h1 { font-size: 2rem; margin: 0 0 4px; }
+    h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+    .sub { color: var(--muted); margin: 0 0 32px; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidade</h1>
+  <p class="sub">moto-pipeline · atualizada em 27/10/2026</p>
+
+  <h2>O que é</h2>
+  <p>O moto-pipeline é uma ferramenta de uso pessoal que edita vídeos de viagens de moto e, depois de
+  aprovação manual, publica esses vídeos nas contas do YouTube e do Instagram que os próprios donos
+  autorizaram.</p>
+
+  <h2>Quais dados são usados</h2>
+  <ul>
+    <li>Os vídeos, fotos e textos enviados pelos donos do conteúdo para edição.</li>
+    <li>As autorizações de acesso (tokens) do YouTube e do Instagram concedidas pelos donos das contas,
+    usadas exclusivamente para publicar os vídeos aprovados.</li>
+    <li>O nome de exibição de quem aprova ou descarta um vídeo no grupo do Telegram, para registro.</li>
+  </ul>
+
+  <h2>Como os dados são usados</h2>
+  <ul>
+    <li>Os vídeos são editados automaticamente e enviados para revisão no Telegram.</li>
+    <li>Quadros dos vídeos e textos enviados são processados por um serviço de inteligência artificial
+    (Anthropic Claude) para escolher os melhores trechos e escrever títulos e legendas.</li>
+    <li>Com o acesso ao YouTube, a ferramenta apenas envia vídeos e consulta o nome do canal autorizado.
+    Ela não lê, altera nem apaga outros vídeos, comentários ou dados da conta.</li>
+    <li>Nenhum dado é vendido, compartilhado com anunciantes ou usado para qualquer outro fim.</li>
+  </ul>
+
+  <h2>Onde ficam e por quanto tempo</h2>
+  <ul>
+    <li>Os arquivos e as autorizações ficam armazenados de forma criptografada na conta da Amazon Web
+    Services (AWS) do responsável pela ferramenta.</li>
+    <li>Os arquivos de vídeo são apagados automaticamente 30 dias após o processamento.</li>
+    <li>As autorizações ficam guardadas até serem revogadas.</li>
+  </ul>
+
+  <h2>Como revogar o acesso</h2>
+  <ul>
+    <li>YouTube/Google: em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+    remova o acesso do app "moto-pipeline".</li>
+    <li>Instagram/Facebook: nas configurações de integrações empresariais da sua conta, remova o app.</li>
+    <li>Ou peça a remoção pelo contato abaixo; os dados e autorizações são apagados.</li>
+  </ul>
+
+  <h2>Contato</h2>
+  <p><a href="mailto:collaco082@gmail.com">collaco082@gmail.com</a></p>
+
+  <p><a href="index.html">← Voltar</a></p>
+</main>
+</body>
+</html>
